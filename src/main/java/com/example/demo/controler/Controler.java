@@ -31,7 +31,7 @@ public class Controler {
 		String s = service.sum();
 		model.addAttribute("budgets", budget);
 		model.addAttribute("suma", s);
-		return "inde";
+		return "index";
 	}
 	
 	@GetMapping("/add")
